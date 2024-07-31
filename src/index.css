@@ -1,0 +1,72 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  z-index: 9999;
+  color: white;
+}
+
+.App {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 0%, rgba(72,72,72,1) 66%, rgba(13,13,13,1) 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  list-style: none;
+  padding-top:  10px;
+}
+
+li:hover{
+  color: aquamarine;
+  cursor: pointer;
+}
+
+h2{
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+h2:hover{
+  color: aquamarine;
+  cursor: pointer;
+}
+
+h2 svg{
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+.row{
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card{
+  transition: all .5s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card-title{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.card-body img{
+  width: 100%;
+}
