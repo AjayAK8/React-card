@@ -8,7 +8,7 @@ const Nav = () => {
     <header>
         <nav>
           <div  className="title"> 
-            <h2><FaHome/>Senchola University</h2>
+            <h2><FaHome/>House Rent</h2>
                 <div>
                     <ul >
                         <li>
